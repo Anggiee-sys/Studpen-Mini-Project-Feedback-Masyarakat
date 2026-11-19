@@ -29,4 +29,8 @@ KOLOM = [
     "Sumber_Data",
 ]
 
-SUMBER_VALID = ("dummy", "uji_coba")
+SUMBER_VALID = ("dummy", "uji_coba", "real")
+
+# --- Tambahan Hari 2 ---
+SUMBER_FORM = "uji_coba"   # nilai Sumber_Data untuk isian dari form selama masa uji coba
+MAKS_KRITIK = 500          # batas karakter kritik/saran

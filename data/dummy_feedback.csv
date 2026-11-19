@@ -1,0 +1,291 @@
+Timestamp,Periode,Layanan,Rating_Kecepatan,Rating_Sikap,Rating_Prosedur,Rating_Informasi,Kritik_Saran,Sumber_Data
+2026-08-10 08:32:57,2026-08,Surat Keterangan,5,5,4,5,,dummy
+2026-08-10 09:47:34,2026-08,SKTM (Surat Keterangan Tidak Mampu),2,4,2,2,"Syarat berkas berubah-ubah, mohon dijelaskan sejak awal.",dummy
+2026-08-10 10:30:31,2026-08,Konsultasi Warga,5,4,5,4,"Pelayanan sudah baik, terima kasih.",dummy
+2026-08-10 11:05:43,2026-08,SKTM (Surat Keterangan Tidak Mampu),3,3,4,3,,dummy
+2026-08-11 09:59:29,2026-08,Konsultasi Warga,5,4,3,3,Mohon dibuatkan brosur atau informasi yang lebih jelas.,dummy
+2026-08-11 10:33:03,2026-08,Surat Keterangan,3,4,4,4,,dummy
+2026-08-11 11:42:49,2026-08,SKTM (Surat Keterangan Tidak Mampu),1,3,3,3,,dummy
+2026-08-11 14:47:21,2026-08,Konsultasi Warga,4,4,5,4,,dummy
+2026-08-11 14:58:06,2026-08,Surat Keterangan,4,5,4,4,,dummy
+2026-08-12 08:05:21,2026-08,SKTM (Surat Keterangan Tidak Mampu),3,5,4,4,,dummy
+2026-08-12 08:14:47,2026-08,Surat Keterangan,3,4,3,3,"Mohon ditambah loket, antrian terlalu lama saat jam sibuk.",dummy
+2026-08-12 12:52:53,2026-08,Surat Keterangan,3,3,3,2,Sulit mencari info jam layanan dan biaya.,dummy
+2026-08-12 13:13:51,2026-08,SKTM (Surat Keterangan Tidak Mampu),3,5,5,5,,dummy
+2026-08-12 14:17:32,2026-08,SKTM (Surat Keterangan Tidak Mampu),3,4,2,3,"Persyaratan berkasnya membingungkan, saya bolak-balik karena ada yang kurang.",dummy
+2026-08-12 14:56:05,2026-08,Lainnya,4,4,5,4,,dummy
+2026-08-13 09:41:24,2026-08,Surat Keterangan,4,4,4,3,Informasi persyaratan tidak ada di papan pengumuman.,dummy
+2026-08-13 10:18:29,2026-08,Konsultasi Warga,4,4,1,2,"Prosedur perubahan data kurang dijelaskan, saya harus datang dua kali.",dummy
+2026-08-13 11:08:44,2026-08,SKTM (Surat Keterangan Tidak Mampu),4,5,4,3,,dummy
+2026-08-13 12:04:20,2026-08,Konsultasi Warga,4,4,4,3,Mohon dibuatkan brosur atau informasi yang lebih jelas.,dummy
+2026-08-13 12:31:04,2026-08,SKTM (Surat Keterangan Tidak Mampu),3,5,4,3,"Menunggu lama untuk SKTM, apalagi menjelang masuk sekolah.",dummy
+2026-08-13 13:54:41,2026-08,SKTM (Surat Keterangan Tidak Mampu),3,5,3,3,Sulit mencari info jam layanan dan biaya.,dummy
+2026-08-13 14:44:27,2026-08,Surat Keterangan,3,4,4,4,Waktu pengerjaan tidak sesuai perkiraan petugas.,dummy
+2026-08-14 09:57:55,2026-08,Perubahan Data/Dokumen Kependudukan,4,5,3,3,,dummy
+2026-08-14 11:07:32,2026-08,SKTM (Surat Keterangan Tidak Mampu),1,2,4,3,,dummy
+2026-08-14 14:05:12,2026-08,Perubahan Data/Dokumen Kependudukan,4,4,3,3,"Syarat berkas berubah-ubah, mohon dijelaskan sejak awal.",dummy
+2026-08-14 14:27:50,2026-08,SKTM (Surat Keterangan Tidak Mampu),3,4,3,3,,dummy
+2026-08-18 09:35:54,2026-08,SKTM (Surat Keterangan Tidak Mampu),3,4,4,4,,dummy
+2026-08-18 09:42:03,2026-08,SKTM (Surat Keterangan Tidak Mampu),3,4,5,4,,dummy
+2026-08-18 10:48:24,2026-08,SKTM (Surat Keterangan Tidak Mampu),3,4,3,3,,dummy
+2026-08-18 11:54:14,2026-08,Perubahan Data/Dokumen Kependudukan,3,5,3,3,,dummy
+2026-08-18 14:13:38,2026-08,Lainnya,4,4,4,4,,dummy
+2026-08-19 10:32:09,2026-08,SKTM (Surat Keterangan Tidak Mampu),4,5,4,1,Informasi persyaratan tidak ada di papan pengumuman.,dummy
+2026-08-19 11:34:38,2026-08,Surat Keterangan,3,3,3,3,,dummy
+2026-08-19 13:29:04,2026-08,Lainnya,5,5,3,3,,dummy
+2026-08-19 14:21:03,2026-08,SKTM (Surat Keterangan Tidak Mampu),1,3,4,2,Antri dari pagi baru dilayani siang.,dummy
+2026-08-20 08:56:51,2026-08,Perubahan Data/Dokumen Kependudukan,3,3,3,3,Mohon dibuatkan brosur atau informasi yang lebih jelas.,dummy
+2026-08-20 10:52:00,2026-08,Konsultasi Warga,4,4,4,3,Tidak ada info estimasi waktu penyelesaian.,dummy
+2026-08-20 11:50:24,2026-08,Surat Keterangan,4,4,3,3,,dummy
+2026-08-20 12:00:42,2026-08,Lainnya,5,4,3,4,"Persyaratan berkasnya membingungkan, saya bolak-balik karena ada yang kurang.",dummy
+2026-08-21 08:04:28,2026-08,SKTM (Surat Keterangan Tidak Mampu),3,4,3,2,Mohon dibuatkan brosur atau informasi yang lebih jelas.,dummy
+2026-08-21 09:55:42,2026-08,Konsultasi Warga,4,4,4,4,,dummy
+2026-08-21 12:49:07,2026-08,Perubahan Data/Dokumen Kependudukan,4,5,3,2,Tidak ada info estimasi waktu penyelesaian.,dummy
+2026-08-21 13:46:38,2026-08,Surat Keterangan,4,4,5,3,,dummy
+2026-08-21 14:56:18,2026-08,Konsultasi Warga,4,4,4,3,,dummy
+2026-08-24 08:24:08,2026-08,SKTM (Surat Keterangan Tidak Mampu),1,2,3,3,Waktu pengerjaan tidak sesuai perkiraan petugas.,dummy
+2026-08-24 10:29:01,2026-08,Surat Keterangan,3,2,3,3,Penjelasan petugas terkesan terburu-buru.,dummy
+2026-08-24 10:37:06,2026-08,SKTM (Surat Keterangan Tidak Mampu),3,4,4,4,,dummy
+2026-08-24 11:14:49,2026-08,Surat Keterangan,4,5,3,3,,dummy
+2026-08-24 11:58:32,2026-08,SKTM (Surat Keterangan Tidak Mampu),2,4,3,2,Informasi persyaratan tidak ada di papan pengumuman.,dummy
+2026-08-24 14:31:53,2026-08,Surat Keterangan,4,5,4,3,,dummy
+2026-08-24 14:51:16,2026-08,Perubahan Data/Dokumen Kependudukan,3,4,3,3,Bingung urutan loket yang harus didatangi.,dummy
+2026-08-25 08:03:55,2026-08,Perubahan Data/Dokumen Kependudukan,5,4,4,3,Tidak ada info estimasi waktu penyelesaian.,dummy
+2026-08-25 09:32:09,2026-08,Surat Keterangan,3,5,3,4,"Antrean panjang sekali, menunggu hampir dua jam.",dummy
+2026-08-25 14:01:56,2026-08,Surat Keterangan,4,4,4,3,,dummy
+2026-08-25 14:20:41,2026-08,Surat Keterangan,3,5,4,4,Waktu pengerjaan tidak sesuai perkiraan petugas.,dummy
+2026-08-25 14:53:40,2026-08,SKTM (Surat Keterangan Tidak Mampu),4,5,4,3,Sulit mencari info jam layanan dan biaya.,dummy
+2026-08-26 08:18:39,2026-08,Konsultasi Warga,4,5,5,4,"Prosesnya cepat dan jelas, puas.",dummy
+2026-08-26 13:46:23,2026-08,Perubahan Data/Dokumen Kependudukan,2,5,2,4,Bingung urutan loket yang harus didatangi.,dummy
+2026-08-27 09:12:46,2026-08,SKTM (Surat Keterangan Tidak Mampu),3,4,4,2,Tidak ada info estimasi waktu penyelesaian.,dummy
+2026-08-27 10:29:15,2026-08,Surat Keterangan,4,4,5,3,Tidak ada info estimasi waktu penyelesaian.,dummy
+2026-08-27 10:43:04,2026-08,Perubahan Data/Dokumen Kependudukan,3,4,2,3,"Syarat berkas berubah-ubah, mohon dijelaskan sejak awal.",dummy
+2026-08-27 10:46:10,2026-08,Konsultasi Warga,4,4,4,4,,dummy
+2026-08-27 14:30:29,2026-08,SKTM (Surat Keterangan Tidak Mampu),4,5,5,4,,dummy
+2026-08-28 08:00:36,2026-08,Perubahan Data/Dokumen Kependudukan,3,3,2,1,Informasi persyaratan tidak ada di papan pengumuman.,dummy
+2026-08-28 08:31:24,2026-08,Perubahan Data/Dokumen Kependudukan,3,4,3,3,Waktu pengerjaan tidak sesuai perkiraan petugas.,dummy
+2026-08-28 08:54:56,2026-08,Perubahan Data/Dokumen Kependudukan,2,3,2,1,Mohon dibuatkan brosur atau informasi yang lebih jelas.,dummy
+2026-08-28 09:02:45,2026-08,Konsultasi Warga,4,5,4,3,Sulit mencari info jam layanan dan biaya.,dummy
+2026-08-28 09:07:37,2026-08,Perubahan Data/Dokumen Kependudukan,3,4,5,3,Mohon dibuatkan brosur atau informasi yang lebih jelas.,dummy
+2026-08-28 09:44:45,2026-08,Lainnya,5,5,3,4,,dummy
+2026-08-28 10:16:38,2026-08,Perubahan Data/Dokumen Kependudukan,5,5,3,4,,dummy
+2026-08-28 11:57:04,2026-08,Surat Keterangan,3,4,4,3,Sulit mencari info jam layanan dan biaya.,dummy
+2026-08-28 13:21:46,2026-08,Lainnya,5,5,5,3,,dummy
+2026-08-28 13:49:17,2026-08,SKTM (Surat Keterangan Tidak Mampu),3,4,4,3,,dummy
+2026-08-28 14:37:17,2026-08,Perubahan Data/Dokumen Kependudukan,4,5,4,4,,dummy
+2026-08-28 14:59:22,2026-08,Perubahan Data/Dokumen Kependudukan,2,3,2,3,Antri dari pagi baru dilayani siang.,dummy
+2026-08-31 08:09:19,2026-08,Surat Keterangan,5,5,5,4,,dummy
+2026-08-31 09:00:53,2026-08,Surat Keterangan,3,5,5,4,,dummy
+2026-08-31 09:14:06,2026-08,Surat Keterangan,4,3,4,4,,dummy
+2026-08-31 09:37:04,2026-08,SKTM (Surat Keterangan Tidak Mampu),2,5,3,3,,dummy
+2026-08-31 11:07:02,2026-08,SKTM (Surat Keterangan Tidak Mampu),3,3,3,2,Informasi persyaratan tidak ada di papan pengumuman.,dummy
+2026-08-31 11:35:36,2026-08,Perubahan Data/Dokumen Kependudukan,2,3,2,2,Ruang tunggu sempit dan kursinya kurang.,dummy
+2026-08-31 12:23:59,2026-08,Perubahan Data/Dokumen Kependudukan,4,5,4,3,,dummy
+2026-08-31 13:06:02,2026-08,Perubahan Data/Dokumen Kependudukan,4,5,3,5,,dummy
+2026-08-31 13:31:46,2026-08,Konsultasi Warga,5,5,5,4,"Sudah bagus, tolong dipertahankan.",dummy
+2026-08-31 14:48:44,2026-08,Konsultasi Warga,5,5,5,4,,dummy
+2026-09-01 08:38:08,2026-09,SKTM (Surat Keterangan Tidak Mampu),3,4,4,4,,dummy
+2026-09-01 11:06:26,2026-09,SKTM (Surat Keterangan Tidak Mampu),3,4,2,3,,dummy
+2026-09-02 09:39:11,2026-09,Surat Keterangan,4,4,5,5,"Sudah bagus, tolong dipertahankan.",dummy
+2026-09-02 09:41:53,2026-09,SKTM (Surat Keterangan Tidak Mampu),2,4,4,4,"Menunggu lama untuk SKTM, apalagi menjelang masuk sekolah.",dummy
+2026-09-02 12:39:49,2026-09,Konsultasi Warga,4,4,4,4,"Sudah bagus, tolong dipertahankan.",dummy
+2026-09-02 14:45:21,2026-09,Surat Keterangan,3,4,3,3,,dummy
+2026-09-03 10:44:57,2026-09,Surat Keterangan,3,4,4,3,"Antrean panjang sekali, menunggu hampir dua jam.",dummy
+2026-09-03 11:42:50,2026-09,Perubahan Data/Dokumen Kependudukan,5,5,4,3,Ruang tunggu sempit dan kursinya kurang.,dummy
+2026-09-03 12:35:55,2026-09,SKTM (Surat Keterangan Tidak Mampu),2,4,4,2,Ruang tunggu sempit dan kursinya kurang.,dummy
+2026-09-04 08:05:01,2026-09,Konsultasi Warga,5,5,4,4,,dummy
+2026-09-04 11:20:54,2026-09,Perubahan Data/Dokumen Kependudukan,3,3,4,4,,dummy
+2026-09-04 14:57:23,2026-09,Perubahan Data/Dokumen Kependudukan,3,4,3,3,Waktu pengerjaan tidak sesuai perkiraan petugas.,dummy
+2026-09-07 13:03:14,2026-09,Surat Keterangan,3,3,3,3,"Persyaratan berkasnya membingungkan, saya bolak-balik karena ada yang kurang.",dummy
+2026-09-08 08:22:26,2026-09,SKTM (Surat Keterangan Tidak Mampu),3,2,4,3,"Ada petugas yang judes, mohon lebih ramah ke warga.",dummy
+2026-09-08 12:35:34,2026-09,Perubahan Data/Dokumen Kependudukan,3,4,4,4,,dummy
+2026-09-08 13:27:26,2026-09,Surat Keterangan,3,5,4,4,,dummy
+2026-09-08 14:47:44,2026-09,Surat Keterangan,4,4,4,4,,dummy
+2026-09-08 14:54:40,2026-09,Lainnya,5,5,5,4,,dummy
+2026-09-09 10:49:38,2026-09,Konsultasi Warga,5,4,4,5,,dummy
+2026-09-09 11:37:58,2026-09,SKTM (Surat Keterangan Tidak Mampu),3,3,3,2,Tidak ada info estimasi waktu penyelesaian.,dummy
+2026-09-09 12:38:41,2026-09,Konsultasi Warga,4,4,4,4,"Pelayanan cepat, tidak perlu menunggu lama.",dummy
+2026-09-09 13:08:35,2026-09,Perubahan Data/Dokumen Kependudukan,3,3,3,3,"Alur pengurusan tidak jelas, harus mulai dari mana.",dummy
+2026-09-10 08:48:15,2026-09,Surat Keterangan,5,4,4,3,,dummy
+2026-09-10 09:08:22,2026-09,Surat Keterangan,4,5,4,4,Penjelasan petugas mudah dipahami.,dummy
+2026-09-11 08:19:01,2026-09,Perubahan Data/Dokumen Kependudukan,3,4,2,3,"Syarat berkas berubah-ubah, mohon dijelaskan sejak awal.",dummy
+2026-09-11 08:37:06,2026-09,Perubahan Data/Dokumen Kependudukan,4,3,2,4,Bingung urutan loket yang harus didatangi.,dummy
+2026-09-11 13:42:10,2026-09,SKTM (Surat Keterangan Tidak Mampu),3,4,3,2,Informasi persyaratan tidak ada di papan pengumuman.,dummy
+2026-09-14 09:29:29,2026-09,SKTM (Surat Keterangan Tidak Mampu),3,4,4,3,Informasi persyaratan tidak ada di papan pengumuman.,dummy
+2026-09-14 09:42:54,2026-09,Surat Keterangan,3,4,3,4,,dummy
+2026-09-15 09:14:51,2026-09,Konsultasi Warga,4,5,4,4,,dummy
+2026-09-15 10:42:05,2026-09,Perubahan Data/Dokumen Kependudukan,3,4,2,4,,dummy
+2026-09-15 10:58:48,2026-09,Konsultasi Warga,3,4,4,4,Waktu pengerjaan tidak sesuai perkiraan petugas.,dummy
+2026-09-16 08:25:27,2026-09,Lainnya,3,5,3,4,Ruang tunggu sempit dan kursinya kurang.,dummy
+2026-09-16 12:21:20,2026-09,Perubahan Data/Dokumen Kependudukan,3,2,3,3,Penjelasan petugas terkesan terburu-buru.,dummy
+2026-09-17 08:16:00,2026-09,Konsultasi Warga,3,4,2,3,Bingung urutan loket yang harus didatangi.,dummy
+2026-09-17 08:26:50,2026-09,Konsultasi Warga,3,4,4,4,"Prosesnya lama, surat baru selesai besok padahal butuh cepat.",dummy
+2026-09-17 08:33:44,2026-09,Konsultasi Warga,5,4,4,3,,dummy
+2026-09-17 09:33:30,2026-09,Surat Keterangan,5,5,4,4,,dummy
+2026-09-17 10:18:52,2026-09,Surat Keterangan,3,4,3,3,,dummy
+2026-09-17 10:39:21,2026-09,SKTM (Surat Keterangan Tidak Mampu),2,5,4,3,Waktu pengerjaan tidak sesuai perkiraan petugas.,dummy
+2026-09-17 11:14:14,2026-09,Lainnya,3,4,4,4,,dummy
+2026-09-17 11:42:04,2026-09,Surat Keterangan,3,4,3,4,Waktu pengerjaan tidak sesuai perkiraan petugas.,dummy
+2026-09-17 14:59:24,2026-09,Perubahan Data/Dokumen Kependudukan,3,4,3,5,"Antrean panjang sekali, menunggu hampir dua jam.",dummy
+2026-09-18 09:27:05,2026-09,Surat Keterangan,4,5,4,4,,dummy
+2026-09-18 10:35:58,2026-09,Perubahan Data/Dokumen Kependudukan,3,4,2,3,"Persyaratan berkasnya membingungkan, saya bolak-balik karena ada yang kurang.",dummy
+2026-09-18 11:35:38,2026-09,Perubahan Data/Dokumen Kependudukan,3,4,3,2,Mohon dibuatkan brosur atau informasi yang lebih jelas.,dummy
+2026-09-18 13:55:17,2026-09,Perubahan Data/Dokumen Kependudukan,3,3,3,3,Petugas kurang sabar menjelaskan.,dummy
+2026-09-21 09:38:47,2026-09,Surat Keterangan,4,4,4,5,,dummy
+2026-09-21 11:32:58,2026-09,Perubahan Data/Dokumen Kependudukan,3,3,2,4,"Persyaratan berkasnya membingungkan, saya bolak-balik karena ada yang kurang.",dummy
+2026-09-21 13:29:59,2026-09,Lainnya,3,3,3,3,,dummy
+2026-09-22 11:32:08,2026-09,SKTM (Surat Keterangan Tidak Mampu),1,4,2,2,Antri dari pagi baru dilayani siang.,dummy
+2026-09-22 12:38:22,2026-09,Surat Keterangan,4,4,3,4,,dummy
+2026-09-22 13:04:21,2026-09,SKTM (Surat Keterangan Tidak Mampu),2,3,3,3,Antri dari pagi baru dilayani siang.,dummy
+2026-09-22 14:41:03,2026-09,Perubahan Data/Dokumen Kependudukan,3,3,3,3,,dummy
+2026-09-23 09:00:08,2026-09,Surat Keterangan,4,4,3,3,,dummy
+2026-09-23 09:04:58,2026-09,Perubahan Data/Dokumen Kependudukan,3,3,2,3,"Prosedur perubahan data kurang dijelaskan, saya harus datang dua kali.",dummy
+2026-09-23 10:30:17,2026-09,Surat Keterangan,4,5,3,4,"Prosedur perubahan data kurang dijelaskan, saya harus datang dua kali.",dummy
+2026-09-23 10:41:07,2026-09,Surat Keterangan,4,4,4,3,,dummy
+2026-09-23 11:03:43,2026-09,SKTM (Surat Keterangan Tidak Mampu),2,4,4,3,"Mohon ditambah loket, antrian terlalu lama saat jam sibuk.",dummy
+2026-09-24 08:21:01,2026-09,Surat Keterangan,4,5,5,4,,dummy
+2026-09-24 10:18:46,2026-09,Konsultasi Warga,4,4,3,3,Mohon dibuatkan brosur atau informasi yang lebih jelas.,dummy
+2026-09-24 13:12:53,2026-09,Surat Keterangan,5,5,3,3,,dummy
+2026-09-28 09:23:27,2026-09,Perubahan Data/Dokumen Kependudukan,3,2,2,2,"Prosedur perubahan data kurang dijelaskan, saya harus datang dua kali.",dummy
+2026-09-28 10:01:00,2026-09,SKTM (Surat Keterangan Tidak Mampu),3,4,5,3,Sulit mencari info jam layanan dan biaya.,dummy
+2026-09-29 11:18:38,2026-09,Surat Keterangan,4,4,5,4,"Sudah bagus, tolong dipertahankan.",dummy
+2026-09-29 14:15:16,2026-09,Surat Keterangan,3,5,4,4,,dummy
+2026-09-30 08:59:10,2026-09,Lainnya,3,3,3,3,,dummy
+2026-09-30 10:15:36,2026-09,Surat Keterangan,3,3,4,3,,dummy
+2026-09-30 11:59:20,2026-09,SKTM (Surat Keterangan Tidak Mampu),4,5,4,4,,dummy
+2026-09-30 14:14:22,2026-09,Perubahan Data/Dokumen Kependudukan,3,4,2,3,"Alur pengurusan tidak jelas, harus mulai dari mana.",dummy
+2026-10-01 08:46:25,2026-10,Surat Keterangan,4,5,3,3,Sulit mencari info jam layanan dan biaya.,dummy
+2026-10-01 10:00:04,2026-10,Konsultasi Warga,3,4,3,4,"Alur pengurusan tidak jelas, harus mulai dari mana.",dummy
+2026-10-01 10:29:27,2026-10,Surat Keterangan,3,4,4,4,"Mohon ditambah loket, antrian terlalu lama saat jam sibuk.",dummy
+2026-10-01 14:00:27,2026-10,Surat Keterangan,4,5,4,4,,dummy
+2026-10-02 10:38:19,2026-10,SKTM (Surat Keterangan Tidak Mampu),3,3,2,3,"Syarat berkas berubah-ubah, mohon dijelaskan sejak awal.",dummy
+2026-10-05 11:16:29,2026-10,Surat Keterangan,5,5,5,5,Petugas ramah dan membantu.,dummy
+2026-10-05 12:12:54,2026-10,Perubahan Data/Dokumen Kependudukan,3,3,2,2,Tidak ada info estimasi waktu penyelesaian.,dummy
+2026-10-06 09:26:21,2026-10,Surat Keterangan,5,4,4,5,,dummy
+2026-10-06 09:47:08,2026-10,Surat Keterangan,5,3,3,4,,dummy
+2026-10-06 12:21:09,2026-10,SKTM (Surat Keterangan Tidak Mampu),3,5,3,3,,dummy
+2026-10-06 13:17:41,2026-10,Lainnya,3,4,4,3,,dummy
+2026-10-06 14:17:46,2026-10,Perubahan Data/Dokumen Kependudukan,3,4,2,3,,dummy
+2026-10-07 12:37:47,2026-10,SKTM (Surat Keterangan Tidak Mampu),4,5,3,3,Mohon dibuatkan brosur atau informasi yang lebih jelas.,dummy
+2026-10-07 14:54:56,2026-10,Perubahan Data/Dokumen Kependudukan,3,4,2,3,"Syarat berkas berubah-ubah, mohon dijelaskan sejak awal.",dummy
+2026-10-08 12:13:42,2026-10,SKTM (Surat Keterangan Tidak Mampu),4,4,4,3,,dummy
+2026-10-09 09:48:41,2026-10,Surat Keterangan,4,5,5,5,Penjelasan petugas mudah dipahami.,dummy
+2026-10-09 10:54:58,2026-10,Surat Keterangan,4,4,2,4,"Persyaratan berkasnya membingungkan, saya bolak-balik karena ada yang kurang.",dummy
+2026-10-09 12:14:01,2026-10,SKTM (Surat Keterangan Tidak Mampu),3,4,3,4,"Mohon ditambah loket, antrian terlalu lama saat jam sibuk.",dummy
+2026-10-09 13:32:14,2026-10,Perubahan Data/Dokumen Kependudukan,4,5,4,5,,dummy
+2026-10-12 11:14:34,2026-10,SKTM (Surat Keterangan Tidak Mampu),4,4,4,4,,dummy
+2026-10-12 13:59:11,2026-10,Konsultasi Warga,3,4,4,4,"Prosesnya lama, surat baru selesai besok padahal butuh cepat.",dummy
+2026-10-13 08:40:12,2026-10,Perubahan Data/Dokumen Kependudukan,5,4,4,4,,dummy
+2026-10-13 10:47:26,2026-10,Konsultasi Warga,5,5,5,5,,dummy
+2026-10-13 12:50:11,2026-10,Konsultasi Warga,5,5,3,5,"Persyaratan berkasnya membingungkan, saya bolak-balik karena ada yang kurang.",dummy
+2026-10-13 13:32:20,2026-10,Perubahan Data/Dokumen Kependudukan,5,5,3,4,,dummy
+2026-10-13 14:50:50,2026-10,Surat Keterangan,3,4,4,4,,dummy
+2026-10-14 09:15:45,2026-10,Lainnya,3,4,4,4,,dummy
+2026-10-14 10:47:56,2026-10,Perubahan Data/Dokumen Kependudukan,4,3,3,4,,dummy
+2026-10-14 11:04:25,2026-10,Lainnya,3,4,3,4,Parkir penuh dan panas di ruang tunggu.,dummy
+2026-10-14 11:23:10,2026-10,Konsultasi Warga,4,5,5,5,Petugas ramah dan membantu.,dummy
+2026-10-14 13:36:30,2026-10,SKTM (Surat Keterangan Tidak Mampu),4,4,5,5,"Pelayanan cepat, tidak perlu menunggu lama.",dummy
+2026-10-14 14:55:39,2026-10,Perubahan Data/Dokumen Kependudukan,4,4,2,3,"Syarat berkas berubah-ubah, mohon dijelaskan sejak awal.",dummy
+2026-10-15 11:15:02,2026-10,Perubahan Data/Dokumen Kependudukan,3,3,3,4,,dummy
+2026-10-15 12:01:51,2026-10,Surat Keterangan,3,4,3,4,Bingung urutan loket yang harus didatangi.,dummy
+2026-10-15 13:27:28,2026-10,Perubahan Data/Dokumen Kependudukan,3,5,2,3,"Persyaratan berkasnya membingungkan, saya bolak-balik karena ada yang kurang.",dummy
+2026-10-16 11:16:11,2026-10,Perubahan Data/Dokumen Kependudukan,3,4,3,4,"Persyaratan berkasnya membingungkan, saya bolak-balik karena ada yang kurang.",dummy
+2026-10-19 09:49:43,2026-10,Surat Keterangan,4,4,3,5,,dummy
+2026-10-19 09:54:58,2026-10,SKTM (Surat Keterangan Tidak Mampu),4,5,3,4,,dummy
+2026-10-19 09:58:29,2026-10,SKTM (Surat Keterangan Tidak Mampu),3,3,3,3,AC di ruang tunggu tidak dingin.,dummy
+2026-10-19 10:44:44,2026-10,Perubahan Data/Dokumen Kependudukan,1,3,1,3,"Alur pengurusan tidak jelas, harus mulai dari mana.",dummy
+2026-10-19 11:57:57,2026-10,Lainnya,3,4,3,3,,dummy
+2026-10-19 12:43:58,2026-10,Perubahan Data/Dokumen Kependudukan,3,5,4,3,,dummy
+2026-10-19 14:51:42,2026-10,Perubahan Data/Dokumen Kependudukan,2,3,3,2,,dummy
+2026-10-20 09:10:21,2026-10,Konsultasi Warga,4,4,3,3,,dummy
+2026-10-20 10:45:05,2026-10,Surat Keterangan,5,5,4,5,,dummy
+2026-10-20 11:11:28,2026-10,Surat Keterangan,2,3,2,3,,dummy
+2026-10-20 12:54:08,2026-10,Lainnya,3,3,5,3,,dummy
+2026-10-21 10:53:49,2026-10,Perubahan Data/Dokumen Kependudukan,4,5,4,5,,dummy
+2026-10-21 13:37:06,2026-10,Surat Keterangan,3,4,4,3,,dummy
+2026-10-22 10:43:58,2026-10,SKTM (Surat Keterangan Tidak Mampu),4,4,3,4,,dummy
+2026-10-22 11:55:34,2026-10,Surat Keterangan,5,4,4,4,,dummy
+2026-10-22 13:51:11,2026-10,Surat Keterangan,5,5,4,3,,dummy
+2026-10-22 14:32:53,2026-10,Surat Keterangan,3,3,3,3,Mohon dibuatkan brosur atau informasi yang lebih jelas.,dummy
+2026-10-23 08:17:45,2026-10,Surat Keterangan,5,4,4,4,Penjelasan petugas mudah dipahami.,dummy
+2026-10-23 12:21:03,2026-10,Konsultasi Warga,5,4,5,5,,dummy
+2026-10-23 13:01:28,2026-10,Konsultasi Warga,4,5,5,4,,dummy
+2026-10-23 14:17:20,2026-10,Konsultasi Warga,4,4,4,4,,dummy
+2026-10-26 11:01:03,2026-10,Surat Keterangan,4,3,3,4,"Ada petugas yang judes, mohon lebih ramah ke warga.",dummy
+2026-10-26 11:05:59,2026-10,SKTM (Surat Keterangan Tidak Mampu),4,4,4,3,,dummy
+2026-10-26 11:42:18,2026-10,Surat Keterangan,3,4,2,2,Informasi persyaratan tidak ada di papan pengumuman.,dummy
+2026-10-26 11:49:17,2026-10,Perubahan Data/Dokumen Kependudukan,3,3,3,3,,dummy
+2026-10-26 12:11:41,2026-10,Perubahan Data/Dokumen Kependudukan,2,3,2,3,,dummy
+2026-10-27 09:07:25,2026-10,Surat Keterangan,4,4,3,4,"Prosedur perubahan data kurang dijelaskan, saya harus datang dua kali.",dummy
+2026-10-27 10:04:26,2026-10,SKTM (Surat Keterangan Tidak Mampu),4,4,5,5,,dummy
+2026-10-27 12:18:39,2026-10,Konsultasi Warga,3,5,3,3,,dummy
+2026-10-27 13:52:18,2026-10,Surat Keterangan,4,5,4,4,,dummy
+2026-10-28 08:44:29,2026-10,Surat Keterangan,3,4,3,3,Mohon dibuatkan brosur atau informasi yang lebih jelas.,dummy
+2026-10-28 10:49:26,2026-10,SKTM (Surat Keterangan Tidak Mampu),2,2,1,2,Bingung urutan loket yang harus didatangi.,dummy
+2026-10-28 11:56:02,2026-10,Perubahan Data/Dokumen Kependudukan,3,3,2,2,,dummy
+2026-10-28 13:36:54,2026-10,SKTM (Surat Keterangan Tidak Mampu),4,4,4,3,Parkir penuh dan panas di ruang tunggu.,dummy
+2026-10-29 09:18:27,2026-10,Konsultasi Warga,4,4,4,4,,dummy
+2026-10-29 12:27:12,2026-10,Surat Keterangan,3,4,2,3,"Prosedur perubahan data kurang dijelaskan, saya harus datang dua kali.",dummy
+2026-10-29 14:56:38,2026-10,Perubahan Data/Dokumen Kependudukan,5,4,2,5,"Persyaratan berkasnya membingungkan, saya bolak-balik karena ada yang kurang.",dummy
+2026-10-30 08:11:46,2026-10,Perubahan Data/Dokumen Kependudukan,4,4,3,5,,dummy
+2026-10-30 08:18:29,2026-10,Perubahan Data/Dokumen Kependudukan,5,4,4,3,Parkir penuh dan panas di ruang tunggu.,dummy
+2026-11-02 08:30:29,2026-11,Konsultasi Warga,4,5,4,4,,dummy
+2026-11-02 09:07:19,2026-11,SKTM (Surat Keterangan Tidak Mampu),2,3,1,3,"Syarat berkas berubah-ubah, mohon dijelaskan sejak awal.",dummy
+2026-11-02 12:03:09,2026-11,Konsultasi Warga,4,5,4,5,,dummy
+2026-11-02 14:25:50,2026-11,Perubahan Data/Dokumen Kependudukan,3,5,2,3,"Alur pengurusan tidak jelas, harus mulai dari mana.",dummy
+2026-11-02 14:57:55,2026-11,Perubahan Data/Dokumen Kependudukan,3,4,4,3,"Antrean panjang sekali, menunggu hampir dua jam.",dummy
+2026-11-03 08:22:18,2026-11,SKTM (Surat Keterangan Tidak Mampu),4,3,3,4,,dummy
+2026-11-03 10:34:35,2026-11,Surat Keterangan,5,5,5,5,,dummy
+2026-11-03 11:58:34,2026-11,Surat Keterangan,5,4,4,4,,dummy
+2026-11-03 12:27:44,2026-11,SKTM (Surat Keterangan Tidak Mampu),3,4,3,3,,dummy
+2026-11-04 10:26:15,2026-11,Perubahan Data/Dokumen Kependudukan,3,4,2,4,"Syarat berkas berubah-ubah, mohon dijelaskan sejak awal.",dummy
+2026-11-04 11:00:22,2026-11,Perubahan Data/Dokumen Kependudukan,2,5,2,3,Waktu pengerjaan tidak sesuai perkiraan petugas.,dummy
+2026-11-04 12:25:27,2026-11,Surat Keterangan,3,3,4,3,,dummy
+2026-11-04 13:04:38,2026-11,Surat Keterangan,5,4,4,4,,dummy
+2026-11-04 13:25:54,2026-11,Perubahan Data/Dokumen Kependudukan,4,3,3,4,Petugas kurang sabar menjelaskan.,dummy
+2026-11-04 13:36:28,2026-11,Surat Keterangan,3,4,3,4,"Prosedur perubahan data kurang dijelaskan, saya harus datang dua kali.",dummy
+2026-11-04 13:45:21,2026-11,SKTM (Surat Keterangan Tidak Mampu),4,5,4,3,Ruang tunggu sempit dan kursinya kurang.,dummy
+2026-11-04 14:47:19,2026-11,Konsultasi Warga,5,5,5,4,,dummy
+2026-11-05 09:33:23,2026-11,Surat Keterangan,3,5,3,4,"Prosedur perubahan data kurang dijelaskan, saya harus datang dua kali.",dummy
+2026-11-05 11:09:30,2026-11,Perubahan Data/Dokumen Kependudukan,4,5,3,3,Informasi persyaratan tidak ada di papan pengumuman.,dummy
+2026-11-05 11:16:24,2026-11,SKTM (Surat Keterangan Tidak Mampu),3,3,3,3,,dummy
+2026-11-05 11:31:24,2026-11,Perubahan Data/Dokumen Kependudukan,2,3,2,3,Waktu pengerjaan tidak sesuai perkiraan petugas.,dummy
+2026-11-05 11:38:39,2026-11,SKTM (Surat Keterangan Tidak Mampu),4,4,3,3,,dummy
+2026-11-05 12:12:02,2026-11,Surat Keterangan,5,4,4,4,,dummy
+2026-11-06 09:25:42,2026-11,Konsultasi Warga,4,4,5,3,Mohon dibuatkan brosur atau informasi yang lebih jelas.,dummy
+2026-11-06 10:53:10,2026-11,SKTM (Surat Keterangan Tidak Mampu),3,5,4,3,Tidak ada info estimasi waktu penyelesaian.,dummy
+2026-11-06 14:56:23,2026-11,Konsultasi Warga,3,4,5,4,,dummy
+2026-11-09 09:14:27,2026-11,Perubahan Data/Dokumen Kependudukan,3,4,3,4,,dummy
+2026-11-09 09:42:56,2026-11,Konsultasi Warga,4,4,4,4,,dummy
+2026-11-09 09:57:09,2026-11,Lainnya,2,4,4,3,AC di ruang tunggu tidak dingin.,dummy
+2026-11-09 10:19:11,2026-11,SKTM (Surat Keterangan Tidak Mampu),4,3,2,3,Bingung urutan loket yang harus didatangi.,dummy
+2026-11-09 11:09:14,2026-11,Lainnya,4,4,4,4,,dummy
+2026-11-09 11:53:07,2026-11,SKTM (Surat Keterangan Tidak Mampu),5,4,3,2,Mohon dibuatkan brosur atau informasi yang lebih jelas.,dummy
+2026-11-10 08:33:35,2026-11,Surat Keterangan,3,5,5,5,,dummy
+2026-11-10 10:42:41,2026-11,Lainnya,4,4,3,4,"Prosedur perubahan data kurang dijelaskan, saya harus datang dua kali.",dummy
+2026-11-10 11:18:57,2026-11,Surat Keterangan,5,5,4,5,,dummy
+2026-11-10 13:08:21,2026-11,Surat Keterangan,5,5,4,5,,dummy
+2026-11-10 13:55:52,2026-11,Perubahan Data/Dokumen Kependudukan,2,4,3,3,,dummy
+2026-11-11 08:15:36,2026-11,Perubahan Data/Dokumen Kependudukan,2,4,2,4,"Mohon ditambah loket, antrian terlalu lama saat jam sibuk.",dummy
+2026-11-11 09:52:03,2026-11,Surat Keterangan,3,4,4,3,Informasi persyaratan tidak ada di papan pengumuman.,dummy
+2026-11-11 09:53:41,2026-11,Perubahan Data/Dokumen Kependudukan,4,5,4,4,,dummy
+2026-11-11 10:03:33,2026-11,Perubahan Data/Dokumen Kependudukan,3,3,3,4,"Syarat berkas berubah-ubah, mohon dijelaskan sejak awal.",dummy
+2026-11-11 13:03:42,2026-11,Perubahan Data/Dokumen Kependudukan,2,4,1,3,Bingung urutan loket yang harus didatangi.,dummy
+2026-11-11 14:21:32,2026-11,Perubahan Data/Dokumen Kependudukan,4,4,3,4,,dummy
+2026-11-11 14:40:55,2026-11,Perubahan Data/Dokumen Kependudukan,3,4,3,4,Bingung urutan loket yang harus didatangi.,dummy
+2026-11-12 10:22:09,2026-11,Konsultasi Warga,5,5,4,4,,dummy
+2026-11-12 11:09:18,2026-11,Surat Keterangan,3,3,3,3,"Alur pengurusan tidak jelas, harus mulai dari mana.",dummy
+2026-11-12 14:34:56,2026-11,Perubahan Data/Dokumen Kependudukan,3,5,2,4,Bingung urutan loket yang harus didatangi.,dummy
+2026-11-12 14:43:50,2026-11,SKTM (Surat Keterangan Tidak Mampu),4,3,2,2,"Alur pengurusan tidak jelas, harus mulai dari mana.",dummy
+2026-11-13 09:55:00,2026-11,SKTM (Surat Keterangan Tidak Mampu),4,4,4,4,,dummy
+2026-11-13 10:43:53,2026-11,Surat Keterangan,4,4,5,4,,dummy
+2026-11-13 10:47:08,2026-11,Perubahan Data/Dokumen Kependudukan,4,5,4,4,"Sudah bagus, tolong dipertahankan.",dummy
+2026-11-13 12:44:44,2026-11,Surat Keterangan,5,5,4,5,,dummy
+2026-11-16 09:15:17,2026-11,Surat Keterangan,5,3,3,5,"Ada petugas yang judes, mohon lebih ramah ke warga.",dummy
+2026-11-16 10:35:23,2026-11,Surat Keterangan,4,4,3,3,Mohon dibuatkan brosur atau informasi yang lebih jelas.,dummy
+2026-11-16 13:05:35,2026-11,Perubahan Data/Dokumen Kependudukan,2,4,2,3,"Mohon ditambah loket, antrian terlalu lama saat jam sibuk.",dummy
+2026-11-17 08:33:35,2026-11,Konsultasi Warga,4,4,4,4,,dummy
+2026-11-17 10:47:32,2026-11,Konsultasi Warga,5,5,4,5,,dummy
+2026-11-17 12:31:14,2026-11,Konsultasi Warga,4,5,2,3,"Prosedur perubahan data kurang dijelaskan, saya harus datang dua kali.",dummy
+2026-11-17 13:58:02,2026-11,Surat Keterangan,5,5,4,5,"Sudah bagus, tolong dipertahankan.",dummy
+2026-11-17 14:36:37,2026-11,Lainnya,4,4,5,4,"Pelayanan cepat, tidak perlu menunggu lama.",dummy

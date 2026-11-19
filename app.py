@@ -13,6 +13,8 @@ st.info("Daftar layanan di bawah masih contoh dan akan diverifikasi dengan pihak
 for layanan in LAYANAN:
     st.markdown(f"- {layanan}")
 
+st.page_link("pages/1_Beri_Feedback.py", label="Beri Feedback", icon="📝")
+
 # --- Bagian sementara untuk pengembang (akan dihapus/disembunyikan di Hari 5) ---
 with st.expander("Status sistem (sementara, untuk pengembang)"):
     try:
