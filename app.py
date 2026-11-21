@@ -14,6 +14,7 @@ for layanan in LAYANAN:
     st.markdown(f"- {layanan}")
 
 st.page_link("pages/1_Beri_Feedback.py", label="Beri Feedback", icon="📝")
+st.page_link("pages/2_Dashboard.py", label="Dashboard (operator/pimpinan)", icon="📊")
 
 # --- Bagian sementara untuk pengembang (akan dihapus/disembunyikan di Hari 5) ---
 with st.expander("Status sistem (sementara, untuk pengembang)"):
@@ -30,3 +31,5 @@ with st.expander("Status sistem (sementara, untuk pengembang)"):
     except Exception as e:
         st.error(f"Gagal terhubung: {type(e).__name__}")
         st.caption("Cek secrets.toml, nama Sheet/tab, dan apakah Sheet sudah dibagikan ke service account.")
+        
+        

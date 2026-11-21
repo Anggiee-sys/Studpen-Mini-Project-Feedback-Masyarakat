@@ -34,3 +34,13 @@ SUMBER_VALID = ("dummy", "uji_coba", "real")
 # --- Tambahan Hari 2 ---
 SUMBER_FORM = "uji_coba"   # nilai Sumber_Data untuk isian dari form selama masa uji coba
 MAKS_KRITIK = 500          # batas karakter kritik/saran
+
+# --- Tambahan Hari 4 (dashboard) ---
+TAB_TINDAK_LANJUT = "tindak_lanjut"
+KOLOM_TL = ["Timestamp", "Layanan", "Aspek", "Catatan", "Status"]
+STATUS_TL = ["Direncanakan", "Dikerjakan", "Selesai"]
+MAKS_CATATAN = 300
+
+# DRAF indikator keberhasilan -- samakan angkanya dengan tabel indikator di proposal
+TARGET_SKOR = 4.0          # target rata-rata skor kepuasan (skala 1-5)
+TARGET_ISIAN_BULAN = 30    # target jumlah isian feedback per bulan
