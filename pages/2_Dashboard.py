@@ -9,7 +9,7 @@ import auth
 import insight as ins
 import sheets
 import teks as t
-from config import ASPEK, LAYANAN, MAKS_CATATAN, STATUS_TL, TARGET_ISIAN_BULAN, TARGET_SKOR
+from config import ASPEK, LAYANAN, MAKS_CATATAN, STATUS_TL
 from validasi import cek_kualitas_data, deteksi_data_pribadi, ringkas_kualitas
 
 WIB = timezone(timedelta(hours=7))
@@ -89,6 +89,7 @@ with tab["Ringkasan"]:
         tr = a.tren_periode(d).reset_index()
         panjang = tr.melt(id_vars="Periode", value_vars=ASPEK_LABEL, var_name="Aspek", value_name="Rata-rata")
         f = px.line(panjang, x="Periode", y="Rata-rata", color="Aspek", markers=True, range_y=[1, 5])
+        f.update_xaxes(type="category")
         f.update_layout(height=340, margin=dict(l=0, r=0, t=10, b=0), legend_title=None, legend=dict(orientation="h", y=-0.25))
         st.plotly_chart(f, width="stretch")
     with c2:
@@ -121,31 +122,58 @@ with tab["Insight"]:
             st.markdown(f"**Insight:** {x['insight']}")
             st.markdown(f"**Rekomendasi:** {x['rekomendasi']}")
 
-# ----- Indikator -----
+# ----- Indikator (sesuai proposal Bab 4.3) -----
 with tab["Indikator"]:
-    st.caption("Draf indikator keberhasilan prototipe; target dapat disesuaikan dengan proposal.")
-    periode_akhir = sorted(d["Periode"].unique())[-1]
-    n_bulan = int((d["Periode"] == periode_akhir).sum())
-    kritik_terisi = d["Kritik_Saran"].fillna("").astype(str).str.strip().ne("").mean() * 100
-    n_perhatian = len(a.daftar_perhatian(d))
+    st.caption(
+        "Indikator keberhasilan sesuai proposal (Bab 4.3). Dihitung dari seluruh data dan tidak "
+        "terpengaruh filter di samping. Data dummy tidak dihitung sebagai capaian pengguna."
+    )
+    nyata = a.siapkan(mentah, sumber=["uji_coba", "real"])
+    n_real = int((nyata["Sumber_Data"] == "real").sum())
+    n_uji = int((nyata["Sumber_Data"] == "uji_coba").sum())
     try:
         tl = sheets.muat_tindak_lanjut()
     except Exception:
         tl = pd.DataFrame(columns=["Status"])
     selesai = int((tl["Status"] == "Selesai").sum()) if len(tl) else 0
+    daftar_insight = ins.buat_insight(semua)
 
-    i1, i2, i3 = st.columns(3)
-    with i1:
-        st.metric(f"Isian pada {periode_akhir}", f"{n_bulan} / {TARGET_ISIAN_BULAN}")
-        st.progress(min(n_bulan / TARGET_ISIAN_BULAN, 1.0))
-    with i2:
-        st.metric("Skor rata-rata", f"{ring['skor_rata_rata']} / {TARGET_SKOR}")
-        st.progress(min(float(ring["skor_rata_rata"]) / TARGET_SKOR, 1.0))
-    with i3:
-        st.metric("Isian disertai kritik/saran", f"{kritik_terisi:.0f}%")
-    j1, j2 = st.columns(2)
-    j1.metric("Aspek/perubahan yang perlu perhatian", n_perhatian)
-    j2.metric("Catatan tindak lanjut selesai", f"{selesai} dari {len(tl)}")
+    st.subheader("1. Pengguna")
+    p1, p2, p3 = st.columns(3)
+    p1.metric("A. Feedback terkumpul (uji coba + real)", len(nyata))
+    p2.metric("B. Penggunaan sistem", f"{n_real} real / {n_uji} uji coba",
+              help="Tanpa identitas, jadi dihitung per pengiriman (1 isian = 1 penggunaan), bukan orang unik.")
+    p3.metric("C. Jenis layanan yang mendapat feedback", f"{nyata['Layanan'].nunique()} dari {len(LAYANAN)}")
+
+    st.subheader("2. Data")
+    dk_semua = t.tambah_kategori(semua)
+    ada_teks = dk_semua[dk_semua["Kategori"].str.len() > 0]
+    terkategori = ada_teks[ada_teks["Kategori"].apply(lambda k: k != ["Lainnya"])]
+    lengkap = len(semua) / len(mentah) * 100 if len(mentah) else 0
+    persen_kat = len(terkategori) / len(ada_teks) * 100 if len(ada_teks) else 0
+    q1, q2, q3 = st.columns(3)
+    q1.metric("A. Kelengkapan data feedback", f"{lengkap:.0f}%", help="Isian dengan semua rating valid (1-5).")
+    q2.metric("B. Kritik/saran berhasil dikategorikan", f"{persen_kat:.0f}%",
+              help="Dari teks yang ada, yang masuk kategori selain 'Lainnya' (pengelompokan berbasis kata kunci).")
+    q3.metric("C. Data siap dianalisis", f"{len(semua)} baris", help="Skema tetap, modul analisis dan notebook tersedia.")
+
+    st.subheader("3. Monitoring")
+    tr = a.tren_periode(semua)
+    skor_kini = float(tr["Skor rata-rata"].iloc[-1])
+    delta = round(skor_kini - float(tr["Skor rata-rata"].iloc[-2]), 2) if len(tr) > 1 else None
+    m1, m2, m3 = st.columns(3)
+    m1.metric("A. Dashboard monitoring", "Berfungsi")
+    m2.metric(f"B. Skor kualitas {tr.index[-1]}", f"{skor_kini:.2f}", delta=delta,
+              help="Kondisi saat ini dan selisih dari periode sebelumnya (tren).")
+    m3.metric("C. Insight dihasilkan dari data", "Ya" if daftar_insight else "Belum")
+
+    st.subheader("4. Evaluasi")
+    e1, e2, e3 = st.columns(3)
+    e1.metric("A. Insight/rekomendasi dihasilkan", len(daftar_insight))
+    e2.metric("B. Umpan balik kelurahan", "Setelah demo",
+              help="Dikumpulkan lewat demo, lembar validasi, dan surat pernyataan; tidak dihitung otomatis.")
+    e3.metric("C. Perbaikan teridentifikasi (tindak lanjut)", f"{len(tl)} catatan", help=f"{selesai} berstatus Selesai.")
+    st.caption("Butir yang dihitung dari seluruh sumber data (kelompok 2-4) memakai data dummy bila belum ada data real.")
 
 # ----- Tindak Lanjut -----
 with tab["Tindak Lanjut"]:
