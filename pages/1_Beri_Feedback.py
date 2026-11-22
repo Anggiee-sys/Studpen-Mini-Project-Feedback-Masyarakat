@@ -4,10 +4,16 @@ from datetime import datetime, timedelta, timezone
 import streamlit as st
 
 import sheets
-from config import ASPEK, LAYANAN, MAKS_KRITIK, SUMBER_FORM
+from config import ASPEK, LAYANAN, MAKS_KRITIK, SUMBER_FORM, SUMBER_VALID
 from validasi import validasi_input
 
 WIB = timezone(timedelta(hours=7))
+try:  # mode pengumpulan: isi [mode] sumber_form = "real" di Secrets saat mengumpulkan feedback warga sungguhan
+    SUMBER_SAAT_INI = st.secrets.get("mode", {}).get("sumber_form", SUMBER_FORM)
+except Exception:
+    SUMBER_SAAT_INI = SUMBER_FORM
+if SUMBER_SAAT_INI not in SUMBER_VALID or SUMBER_SAAT_INI == "dummy":
+    SUMBER_SAAT_INI = SUMBER_FORM
 JEDA_DETIK = 20  # jeda minimal antar pengiriman dari satu sesi (pencegah kirim ganda)
 
 st.set_page_config(page_title="Beri Feedback", page_icon="📝", layout="centered")
@@ -67,7 +73,7 @@ if kirim:
             "Layanan": layanan,
             **ratings,
             "Kritik_Saran": (kritik or "").strip(),
-            "Sumber_Data": SUMBER_FORM,
+            "Sumber_Data": SUMBER_SAAT_INI,
         }
         try:
             sheets.tambah_feedback(baris)

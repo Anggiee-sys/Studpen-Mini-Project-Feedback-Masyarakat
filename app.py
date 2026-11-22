@@ -1,5 +1,6 @@
 import streamlit as st
 
+import analisis as a
 import sheets
 from config import LAYANAN, NAMA_APP
 
@@ -8,28 +9,43 @@ st.set_page_config(page_title=NAMA_APP, page_icon="🏛️", layout="centered")
 st.title(NAMA_APP)
 st.caption("Prototipe Studi Independen UNESA × Celerates")
 
+st.write(
+    "Bantu kelurahan meningkatkan pelayanan: beri penilaian atas layanan yang Anda terima. "
+    "Cukup 1 menit dan **tanpa nama**."
+)
+st.page_link("pages/1_Beri_Feedback.py", label="Beri Feedback", icon="📝")
+
 st.header("Informasi Pelayanan")
 st.info("Daftar layanan di bawah masih contoh dan akan diverifikasi dengan pihak kelurahan.")
 for layanan in LAYANAN:
     st.markdown(f"- {layanan}")
 
-st.page_link("pages/1_Beri_Feedback.py", label="Beri Feedback", icon="📝")
-st.page_link("pages/2_Dashboard.py", label="Dashboard (operator/pimpinan)", icon="📊")
+# ---------- Ringkasan terbuka (transparansi): hanya dari data SUNGGUHAN, hanya angka rangkuman ----------
+st.header("Ringkasan Penilaian Warga")
+try:
+    real = a.siapkan(sheets.muat_data(), sumber="real")
+except Exception:
+    real = None
+    st.caption("Ringkasan belum dapat dimuat saat ini.")
+if real is not None:
+    if len(real) < a.AMBANG_N_KECIL:
+        st.caption(
+            f"Ringkasan akan ditampilkan setelah terkumpul sedikitnya {a.AMBANG_N_KECIL} penilaian warga. "
+            f"Saat ini baru {len(real)}."
+        )
+    else:
+        r = a.ringkasan_umum(real)
+        c1, c2 = st.columns(2)
+        c1.metric("Jumlah penilaian", r["jumlah_responden"])
+        c2.metric("Skor rata-rata (1-5)", r["skor_rata_rata"])
+        st.dataframe(
+            a.statistik_per_aspek(real)[["Aspek", "Rata-rata"]], hide_index=True, width="stretch"
+        )
+        st.caption("Hanya angka rangkuman; tidak memuat identitas maupun kritik/saran individual.")
 
-# --- Bagian sementara untuk pengembang (akan dihapus/disembunyikan di Hari 5) ---
-with st.expander("Status sistem (sementara, untuk pengembang)"):
-    try:
-        cocok, header = sheets.cek_header()
-        jumlah = len(sheets.muat_data())
-        st.success("Terhubung ke Google Sheets.")
-        st.write(f"Jumlah baris data: {jumlah}")
-        if cocok:
-            st.success("Header Sheet sesuai skema.")
-        else:
-            st.error("Header Sheet TIDAK sesuai skema.")
-            st.write("Header di Sheet:", header)
-    except Exception as e:
-        st.error(f"Gagal terhubung: {type(e).__name__}")
-        st.caption("Cek secrets.toml, nama Sheet/tab, dan apakah Sheet sudah dibagikan ke service account.")
-        
-        
+st.divider()
+c1, c2 = st.columns(2)
+with c1:
+    st.page_link("pages/2_Dashboard.py", label="Dashboard (operator/pimpinan)", icon="📊")
+with c2:
+    st.page_link("pages/3_Tentang.py", label="Tentang aplikasi", icon="ℹ️")
