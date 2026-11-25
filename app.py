@@ -16,9 +16,30 @@ st.write(
 st.page_link("pages/1_Beri_Feedback.py", label="Beri Feedback", icon="📝")
 
 st.header("Informasi Pelayanan")
-st.info("Daftar layanan di bawah masih contoh dan akan diverifikasi dengan pihak kelurahan.")
-for layanan in LAYANAN:
-    st.markdown(f"- {layanan}")
+st.markdown(
+    "**Jam buka:** 08.00-16.00 | **Jam layanan:** 09.00-15.00 | **Lama layanan:** sekitar 15-20 menit"
+)
+st.markdown(
+    "| Layanan | Gambaran persyaratan |\n"
+    "|---|---|\n"
+    "| Surat Keterangan (umum, usaha, ahli waris) | Pengantar RT/RW, fotokopi KK dan KTP pemohon, surat pernyataan bermaterai; "
+    "tambahan sesuai jenis (misalnya dokumen usaha atau akta kematian dan KTP ahli waris) |\n"
+    "| SKTM | Pengantar RT/RW, fotokopi KK dan KTP pemohon, surat dari puskesmas/rawat inap (untuk rumah sakit), surat pernyataan bermaterai |\n"
+    "| Perubahan Data/Dokumen Kependudukan | Akta kelahiran/kematian: KK, KTP, surat keterangan bidan/dokter/kelurahan, KTP saksi. "
+    "Pindah masuk/keluar: KK, KTP, surat pindah/domisili, surat pernyataan alamat atau kepemilikan rumah |\n"
+    "| Konsultasi Warga | Sampaikan keperluan langsung kepada petugas |\n"
+)
+with st.expander("Alur layanan secara singkat"):
+    st.markdown(
+        "1. Pemohon menyerahkan dokumen sesuai persyaratan, petugas memverifikasi.\n"
+        "2. Petugas memproses pengajuan (membuat akun dan pengajuan, mengisi uraian layanan).\n"
+        "3. Petugas memverifikasi dokumen kepada atasan.\n"
+        "4. Atasan memverifikasi dokumen dan menandatangani."
+    )
+st.caption(
+    "Ringkasan umum untuk gambaran awal, bersumber dari keterangan perangkat kelurahan. Persyaratan lengkap dan terbaru "
+    "ada pada poster di kelurahan; bawa dokumen asli untuk diverifikasi petugas."
+)
 
 # ---------- Ringkasan terbuka (transparansi): hanya dari data SUNGGUHAN, hanya angka rangkuman ----------
 st.header("Ringkasan Penilaian Warga")
