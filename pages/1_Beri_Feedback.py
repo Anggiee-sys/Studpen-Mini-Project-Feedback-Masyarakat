@@ -42,7 +42,12 @@ if st.session_state.get("terkirim"):
 
 with st.form("form_feedback"):
     layanan = st.selectbox(
-        "Layanan yang Anda terima", LAYANAN, index=None, placeholder="Pilih layanan...", key="f_layanan"
+        "Layanan yang Anda terima", LAYANAN, index=None, placeholder="Pilih layanan...", key="f_layanan",
+        help=(
+            "Surat Keterangan: surat keterangan umum, usaha, ahli waris. "
+            "SKTM: surat keterangan tidak mampu (termasuk untuk rumah sakit). "
+            "Perubahan Data/Dokumen Kependudukan: akta kelahiran, akta kematian, pindah masuk, pindah keluar."
+        ),
     )
     st.caption("Beri penilaian untuk tiap aspek: 1 = sangat buruk, 5 = sangat baik")
     ratings = {}

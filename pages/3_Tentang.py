@@ -19,6 +19,23 @@ st.markdown(
     "4. Hasil dipakai sebagai bahan perbaikan pelayanan dan dicatat sebagai tindak lanjut."
 )
 
+st.header("Informasi layanan Kelurahan Geluran")
+st.markdown(
+    "- **Jam buka:** 08.00-16.00. **Jam layanan:** 09.00-15.00.\n"
+    "- **Lama layanan:** sekitar 15-20 menit.\n"
+    "- **Layanan yang sering diakses:** Surat Keterangan (umum, usaha, ahli waris), SKTM, dan "
+    "dokumen kependudukan (akta kelahiran, akta kematian, pindah masuk, pindah keluar).\n"
+    "- **Persyaratan lengkap tiap layanan:** lihat poster persyaratan di kelurahan."
+)
+st.markdown("**Alur layanan secara singkat**")
+st.markdown(
+    "1. Pemohon menyerahkan dokumen sesuai persyaratan, petugas memverifikasi.\n"
+    "2. Petugas memproses pengajuan (membuat akun dan pengajuan, mengisi uraian layanan).\n"
+    "3. Petugas memverifikasi dokumen kepada atasan.\n"
+    "4. Atasan memverifikasi dokumen dan menandatangani."
+)
+st.caption("Informasi bersumber dari keterangan perangkat kelurahan dan merupakan fitur pendukung, bukan inti sistem.")
+
 st.header("Aspek yang dinilai")
 for label in ASPEK.values():
     st.markdown(f"- {label}")
